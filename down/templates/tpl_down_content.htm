@@ -1,0 +1,51 @@
+<!-start->
+<link href="css/downcontent.css" rel="stylesheet" type="text/css" />
+<script type=text/javascript src="{#CP#}js/downcontent.js"></script>
+
+<div id="downcontent">
+<div class="down" id="downlink">
+<img src="images/download.gif" width="100" height="100" border="0">
+
+</div>
+
+<div class="downprop">
+<span class="propname">文件名称：</span><strong>{#title#}</strong><br />
+<span class="propname">下载分类：</span>{#catstr#}<br />
+<!-start->
+<!-list-> 
+<span class="propname">{#propname#}：</span>{#prop#} <br />
+<!-list-> 
+<!-end->
+<span class="propname">浏览次数：</span>{#cl#} 次 <br />
+<span class="propname">下载次数：</span>{#downcount#} 次 <br />
+<span class="propname">上传时间：</span>{#dtime#} <br />
+<span class="propname">更新时间：</span>{#uptime#} <br />
+<span class="propname">资源发布：</span>{#author#} <br />
+<span class="propname">交易积分：</span>{#downcent#} {#centname#} <br />
+<span class="propname">资源收益：</span>{#centincome#} {#centname#}<br />
+<span class="propname">资源下载：</span><a href="#" class="downlinktext" >点这里下载</a>  &nbsp; <span id="downcentnotice"></span><input type="hidden" id="downcent" value="{#downcentstr#}"> <br />
+
+</div>
+
+<div id="memo" class="memo">简介：{#memo#} </div>
+<div id="con" class="con">{#body#} </div>
+	<div id="contentpages"></div>
+	<div class="bzone">
+	<div class="source" >浏览 ({#cl#}) | 下载 ({#downcount#}) | <a href="{#commentutl#}">评论</a> ({#commentcount#}) | 评分({#centavg#}) | <span id="zhichi"  title="支持一票">支持(<span id="zhichinum">{#zhichi#}</span>) </span> | <span id="fandui" title="反对一票">反对(<span id="fanduinum">{#fandui#}</span>) </span> |  资源发布：<a href="{#memberurl#}">{#author#}</a>  
+	  <input type="hidden" id="downid" value="{#id#}"> 
+	  </div>
+	<div id="addfav" class="addfav">将本资源加入收藏夹</div>
+	<div class="tags" style="display:{#showtag#}">标签：{#tagstr#}</div>
+	<div id="banzhu" class="banzhu"></div>
+	</div>
+</div>
+<script>
+$(function(){
+$().contentPages('{#id#}');
+});
+
+</script>
+<!-end->
+<!-err1-><div class="notice">当前ID不存在或尚未发布</div><!-err1->
+<!-err2-><div class="notice">对不起,本内容设置了阅读权限,您无权访问当前内容</div><!-err2->
+

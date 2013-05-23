@@ -1,0 +1,34 @@
+/* ============µ„∆¿¡–±Ì============== */
+
+ul.maqtopcent{
+margin:0px;
+padding:0px;
+}
+
+li.maqtopcent {
+margin:0;
+padding-left:15px;
+list-style-type: none;
+height:22px;
+white-space:nowrap;
+}
+
+a.maqtopcent:link,a.maqtopcent:visited,a.maqtopcent:active{
+color:#505050;
+text-decoration: none;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.maqtopcent:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+li.maqtopcent div.coin{
+display:inline;
+height:22px;
+padding-left:17px;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+background: transparent url(../images/coin.gif) 5px no-repeat;
+}

@@ -1,0 +1,29 @@
+/* ============分类列表============== */
+
+ul.downclass{
+margin:0px;
+padding:0px;
+}
+
+li.downclass {
+float:left;
+margin-right:12px;
+padding-left:16px;
+list-style-type: none;
+white-space: nowrap;
+background: transparent url(../images/li.gif) left no-repeat;
+}
+
+
+
+a.downclass:link,a.downclass:visited,a.downclass:active{
+color:#555;
+text-decoration: none;
+font: 12px/18px simsun;
+}
+
+a.downclass:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/18px simsun;
+}

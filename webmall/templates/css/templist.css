@@ -1,0 +1,81 @@
+/* ============产品图片列表============== */
+
+div.templist{
+float:left;
+margin:0px 6px 0px 0px;
+text-align:left;
+padding-bottom:20px;
+}
+
+div.templist_left{
+text-align:center;
+}
+
+div.templist_right{
+text-align:center;
+white-space:normal;
+background-color:#f0f0f0;
+margin-bottom:8px;
+}
+
+div.templist div.fang{
+border:0px;
+background: #fff;
+padding:8px;
+text-align:center;
+margin-bottom:1px;
+background:url(../images/tpbg.jpg) left no-repeat;
+}
+
+div.templist div.picFit{
+overflow: hidden;
+}
+
+
+div.templist div.picFit img{
+
+}
+
+
+div.templist a.prodtitle:link,div.templist a.prodtitle:visited,div.templist a.prodtitle:active{
+color:#333333;
+font:12px/25px SimSun,Arial,Sans-Serif;
+text-decoration: none;
+margin-bottom:5px;
+}
+
+div.templist a.prodtitle:hover{
+color:#ff6600;
+text-decoration: underline;
+font:12px/25px SimSun,Arial,Sans-Serif;
+margin-bottom:5px;
+}
+
+div.templist div.memo{
+font:12px/32px SimSun,Arial,Sans-Serif;
+color:#393939;
+text-align:center;
+}
+
+div.templist div.memo img{
+margin-right:3px;
+}
+
+
+div.templist span.prop{
+font:12px/20px SimSun,Arial,Sans-Serif;
+color:#393939;
+overflow: hidden;
+text-align:left;
+}
+
+div.templist a.demolink:link,div.templist a.demolink:visited,div.templist a.demolink:active{
+color:#ff3300;
+font:12px/28px SimSun,Arial,Sans-Serif;
+text-decoration: underline;
+}
+
+
+
+
+

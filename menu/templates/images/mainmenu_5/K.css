@@ -1,0 +1,48 @@
+#menumain{
+   margin:0;
+   padding-left:200px;
+   white-space:nowrap;
+   overflow:hidden;
+   height:50px;
+   background:url(menu.png) 0px -1000px repeat-x;
+}
+
+
+#menumain a.menumain:link,#menumain a.menumain:active,#menumain a.menumain:visited{
+   display:block;
+   float:left;
+   color: #ffffff; 
+   width:90px;
+   height:50px;
+   text-decoration: none;
+   text-align:center;
+   font:bold 14px/47px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px 2px;
+}
+
+#menumain a.menumain_current{
+   display:block;
+   float:left;
+   color: #ffffff; 
+   width:90px;
+   height:50px;
+   text-decoration: none;
+   text-align:center;
+   font:bold 14px/43px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   background:url(menu.png) 0px -1050px no-repeat;
+   margin:0px 2px;
+} 
+
+#menumain a.menumain:hover {
+   display:block;
+   float:left;
+   color: #ffffff; 
+   width:90px;
+   height:50px;
+   text-decoration: none;
+   text-align:center;
+   font:bold 14px/43px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   background:url(menu.png) 0px -1050px no-repeat;
+   margin:0px 2px;
+} 
+

@@ -1,0 +1,25 @@
+/*=========½Å×¢²Ëµ¥===========*/
+div#menumain{
+margin: 0;
+padding:0;
+border: 0;
+height: 28px;
+font:11px/28px Verdana, Arial, Helvetica, sans-serif;
+color:#ff6600;
+text-align:center;
+}
+
+
+div#menumain a:link,div#menumain a:visited,div#menumain a:active{
+margin:0px 6px 0px 3px;
+color:#ff6600;
+font:12px/28px Verdana, Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+div#menumain a:hover{
+margin:0px 6px 0px 3px;
+color:#666666;
+font:12px/28px Verdana, Arial, Helvetica, sans-serif;
+text-decoration: underline;
+}

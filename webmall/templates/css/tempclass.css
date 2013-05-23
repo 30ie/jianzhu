@@ -1,0 +1,36 @@
+
+
+
+
+
+/* ============分类列表============== */
+
+ul.tempclass{
+margin:0px;
+}
+
+li.tempclass {
+margin:0;
+padding:0;
+list-style-type: none;
+font: 9px/20px Verdana, Arial, Helvetica, sans-serif;
+font-weight:100;
+color:#909090;
+white-space: nowrap;
+background: transparent url(../images/li.gif) left no-repeat;
+}
+
+a.tempclass:link,a.tempclass:visited,a.tempclass:active{
+color:#505050;
+text-decoration: none;
+font: 12px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.tempclass:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+

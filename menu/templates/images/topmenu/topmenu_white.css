@@ -1,0 +1,25 @@
+/*=========¶¥²¿²Ëµ¥===========*/
+div#topmenu{
+margin: 0;
+padding:0;
+border: 0;
+height: 28px;
+line-height:28px;
+color:#fff;
+text-align:center;
+}
+
+
+div#topmenu a:link,div#topmenu a:visited,div#topmenu a:active{
+margin:0 5px;
+color:#fff;
+font:12px/28px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div#topmenu a:hover{
+margin:0 5px;
+color:#ffcc00;
+font-weight:bold;
+text-decoration: none;
+}

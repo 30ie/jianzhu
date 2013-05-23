@@ -1,0 +1,11 @@
+/* ============Ê÷ÐÎ·ÖÀà============== */
+
+.dtree {font-size: 12px;	white-space: nowrap;}
+.dtree img  {border: 0px;	vertical-align: middle;}
+.dtree a   {font-size: 12.00px;	TEXT-DECORATION: none}
+.dtree a.node{white-space: nowrap;padding: 1px 2px 1px 2px;TEXT-DECORATION: none}
+.dtree a.nodeSel {font-size: 12.00px;	white-space: nowrap;	padding: 1px 2px 1px 2px;TEXT-DECORATION: none}
+.dtree a.node:hover {font-size: 12.00px;	TEXT-DECORATION: none}
+.dtree a.nodeSel:hover {	font-size: 12.00px;TEXT-DECORATION: none}
+.dtree a.nodeSel {background-color: #cfdfef;font-size: 12.00px;}
+.dtree .clip {overflow: hidden;}

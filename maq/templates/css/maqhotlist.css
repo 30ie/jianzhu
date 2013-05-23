@@ -1,0 +1,27 @@
+/* ============µ„∆¿¡–±Ì============== */
+
+ul.maqhotlist{
+margin:0px;
+padding:0px;
+}
+
+li.maqhotlist {
+margin:0;
+padding-left:15px;
+list-style-type: none;
+height:22px;
+white-space:nowrap;
+}
+
+a.maqhotlist:link,a.maqhotlist:visited,a.maqhotlist:active{
+color:#505050;
+text-decoration: none;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.maqhotlist:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+

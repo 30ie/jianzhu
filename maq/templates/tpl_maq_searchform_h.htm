@@ -1,0 +1,56 @@
+<link href="css/searchform_h.css" rel="stylesheet" type="text/css" />
+<form id="searchform" method="get" action="{#RP#}maq/class/index.php">
+ 
+  <div class="searchform">
+    <select name="catid" id="catid"  >
+      <option value="0" >选择问题分类</option>
+      
+	  {#catlist#}
+    
+    </select>  
+  </div>
+   <div class="searchform">
+    <select name="myshowstat" id="myshowstat"  >
+      <option value="all" >全部问题</option>
+	   <option value="0">未解决的问题</option>
+	   <option value="1" >已解决的问题</option>
+    
+    </select>
+	  </div>
+  
+  <div class="searchform">
+    <select name="myord" id="myord"  >
+      <option value="uptime">按更新时间排序</option>
+	  <option value="cent">按悬赏多少排序</option>
+	  <option value="dtime">按提问时间排序</option>
+	  <option value="exptime" >按过期时间排序</option>
+	  <option value="backcount" >按回复人数排序</option>
+	  <option value="cl" >按查看次数排序</option>
+    </select>  
+  </div>
+  
+ 
+  <div class="searchform">
+    <select name="myshownums" id="myshownums"  >
+       <option value="5" >每页5条</option>
+      <option value="10" >每页10条</option>
+     <option value="20" >每页20条</option>
+	   <option value="30">每页30条</option>
+	   <option value="50" >每页50条</option>
+    
+    </select>
+	 <script>
+	selOption(searchform.myshownums,'{#myshownums#}');
+	selOption(searchform.myord,'{#myord#}');
+	selOption(searchform.myshowstat,'{#myshowstat#}');
+</script>
+	
+  </div>
+    <div class="searchform">
+    <input name="key" type="text" id="key" value="{#key#}" size="16" class="input">
+  </div>
+    <div class="searchform">
+  <input name="imageField" id="button" type="image" src="images/search5.gif" >
+  <input name="mid" type="hidden" id="mid" value="{#mid#}">
+  </div>
+</form>

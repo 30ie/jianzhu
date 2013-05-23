@@ -1,0 +1,43 @@
+<!-start->
+<link href="css/tempquery.css" rel="stylesheet" type="text/css" />
+<!-start->
+<!-list->
+<div class="tempquery">
+    <div class="tempquery_left">
+		<div class="fang" style="width:{#picw#}px;height:{#pich#}px">
+		<div class="picFit" style="width:{#picw#}px;height:{#pich#}px">
+		<a href="{#link#}" target="{#target#}" ><img src="{#src#}" style="width:{#picw#}px;height:{#pich#}px" border="0" /></a>
+		</div>
+		</div>
+	</div>
+  <div class="tempquery_right">
+		<a href="{#link#}" target="{#target#}" class="prodtitle" >{#name#}</a>
+		
+		<span class="prop">
+		<strong>产品编号</strong>：{#spool#} <br />
+		<strong>应用分类</strong>：{#temptype#} <br />
+		<strong>行业分类</strong>：{#tempcat#} <br />
+		<strong>预装模块</strong>：{#modules#} <br />
+		<strong>产品售价</strong>：{#price#}元/套 <br />
+		</span>
+		<br />
+	  <span class="memo"><a href="{#demourl#}" target="_blank"><img src="images/b7.gif" alt="演示网站" width="34" height="15" border="0"></a><a href="{#tryurl#}"><img src="images/b5.gif" alt="免费试用" width="34" height="15" border="0"></a><a href="{#link#}"><img src="images/b8.gif" alt="订购" width="50" height="15" border="0"></a>
+	  
+	  </span>
+		
+	</div>
+</div>
+<!-list->
+<!-end->
+<script>
+$(function() {
+$().picFit("{#fittype#}");
+});
+</script>
+
+<div id="showpages" >
+	  <div id="pagesinfo">共{#totalnums#}个 每页{#pagesshownum#}个 页次：{#pagesnow#}/{#pagestotal#}</div>
+	  <div id="pages">{#showpages#}</div>
+</div>
+
+<!-end->

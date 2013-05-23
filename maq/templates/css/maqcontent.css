@@ -1,0 +1,176 @@
+
+/* ============点评内容============== */
+
+#maqcontent{
+border-bottom:1px #ddd dotted;
+}
+
+#maqcontent td.namezone{
+border-right:0px #D9ECFF solid;
+padding:0px 30px 0px 0px;
+background-color:#fff;
+}
+
+#maqcontent .face{
+margin-bottom:20px;
+width:90px;
+padding:0px; 
+overflow:hidden;
+}
+
+#maqcontent .pname{
+text-align:center;
+font: 12px/30px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#maqcontent .pname a{
+font: 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+line-height:23px; 
+}
+
+
+#maqcontent .showcent{
+width:90px;
+line-height:20px; 
+text-align:left;
+font: 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#maqcontent .user_add{
+width:90px;
+line-height:20px; 
+text-align:left;
+background:url(../images/user_add.gif) 20px no-repeat;
+padding-left:39px;
+padding-top:8px;
+cursor:pointer;
+}
+
+#maqcontent .send_msg{
+width:90px;
+line-height:20px; 
+text-align:left;
+background:url(../images/sn.gif) 20px no-repeat;
+padding-left:39px;
+cursor:pointer;
+}
+
+
+#maqcontent .info{
+margin:0px 0px 20px 10px;
+font:12px/20px Verdana, Arial, Helvetica,sans-serif;
+color:#8c8c8c;
+}
+
+#maqcontent .timeinfo{
+margin:8px 0px 8px 10px;
+font:12px/20px Verdana, Arial, Helvetica,sans-serif;
+color:#8c8c8c;
+}
+
+#maqcontent .addinfo{
+margin:15px 0px 15px 0px;
+width:75%;
+white-space:nowrap;
+font:12px/20px Verdana, Arial, Helvetica,sans-serif;
+color:#8c8c8c;
+border:1px #ddd dotted;
+padding:3px 6px;
+background:#f7f7f7;
+}
+
+
+
+#maqcontent .banzhu{
+display:none;
+margin:0px 10px;
+height:28px;
+line-height:28px;
+float:right;
+}
+
+#maqcontent .banzhu span{
+cursor:pointer;
+}
+
+
+#maqcontent .maqtitle{
+padding:0px 20px 5px 10px;
+height:30px;
+line-height:30px;
+font-size:14px;
+font-weight:bold;
+}
+
+#maqcontent .maqok{font:14px/30px  Verdana, Arial, Helvetica,sans-serif;background:#68c300;margin-right:10px;padding:1px 3px;color:#fff}
+#maqcontent .maqnotok{font:14px/30px  Verdana, Arial, Helvetica,sans-serif;background:#ff8c00;margin-right:10px;padding:1px 3px;color:#fff}
+#maqcontent .maqexped{font:14px/30px  Verdana, Arial, Helvetica,sans-serif;background:#00a9e1;margin-right:10px;padding:1px 3px;color:#fff}
+
+
+#maqcontent .maqbody{
+padding:0px 10px 20px 10px ;
+font: 14px/1.5 Verdana, Arial, Helvetica, sans-serif;
+}
+
+#maqcontent .setbest{
+margin:0px 10px;
+padding-left:20px;
+height:28px;
+line-height:28px;
+float:right;
+background:url(../images/ok.png) left no-repeat;
+cursor:pointer;
+}
+
+#maqcontent .setclose{
+margin:0px 10px;
+padding-left:22px;
+height:28px;
+line-height:28px;
+float:right;
+background:url(../images/no.png) left no-repeat;
+cursor:pointer;
+}
+
+
+
+#maqcontent .bestanswer{
+margin:0px 10px;
+padding-left:23px;
+height:28px;
+line-height:28px;
+background:url(../images/best.gif) left no-repeat;
+cursor:pointer;
+}
+
+
+
+
+#maqcontent .sign{
+padding:5px 20px;
+}
+
+#maqcontent .signature{
+padding:3px 20px 30px 20px;
+}
+
+
+
+
+/* ============点评表单============== */
+
+div#maqForm {padding:10px;border:1px #D9ECFF solid; background:#f7fbfe;margin-top:15px;text-align:left}
+div#maqForm .formtitlebg{height:30px;line-height:30px;border-bottom:1px #D9ECFF solid;text-align:center;background:#fff;}
+div#maqForm .formtitle{padding-left:15px;float:left;line-height:28px;background:url(../images/cateitems.gif) 0px no-repeat;}
+div#maqForm .formzone{margin:0;padding:15px;text-align:left;}
+div#maqForm .row{width:100%;padding:3px 0px;clear:both}
+div#maqForm .left{width:80px;float:left;text-align:center;padding:3px 5px 0px 0px}
+div#maqForm .con{float:left;text-align:left}
+
+
+
+
+.loginlink{cursor:pointer;text-decoration: underline}
+.logoutlink{cursor:pointer;text-decoration: underline}

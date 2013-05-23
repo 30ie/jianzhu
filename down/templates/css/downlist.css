@@ -1,0 +1,39 @@
+/* ============œ¬‘ÿ¡–±Ì============== */
+
+ul.downlist{
+margin:0px;
+padding:0px;
+}
+
+li.downlist {
+margin:0;
+padding-left:16px;
+list-style-type: none;
+background: transparent url(../images/li.gif) left no-repeat;
+}
+
+
+a.downlist:link,a.downlist:visited,a.downlist:active{
+text-decoration: none;
+font:12px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+color:#555;
+}
+
+a.downlist:hover{
+text-decoration: underline;
+font:12px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+color:#ff6600;
+}
+
+a.downlink:link,a.downlink:visited,a.downlink:active{
+text-decoration: underline;
+font:12px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+color:#777;
+}
+
+
+a.downlink:hover{
+text-decoration: underline;
+font:12px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+color:#ff6600;
+}

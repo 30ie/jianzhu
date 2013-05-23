@@ -1,0 +1,26 @@
+div.titlemenu_b2{
+margin:0 5px;
+padding:0;
+}
+
+div.titlemenu_b2 a.titlemenu_b2:link,div.titlemenu_b2 a.titlemenu_b2:visited,div.titlemenu_b2 a.titlemenu_b2:active{
+display:block;
+color: #505050; 
+text-decoration: none;
+font:12px/30px 'SimSun',Arial,Sans-Serif;
+background:#ffffff url(../images/li.gif) 18px center no-repeat;
+padding-left:38px;
+margin-bottom:1px;
+border-bottom:1px #ddd dotted;
+}
+
+div.titlemenu_b2 a.titlemenu_b2:hover{
+display:block;
+color: #505050; 
+text-decoration: none;
+font:12px/30px 'SimSun',Arial,Sans-Serif;
+background:#eeeeee url(../images/li.gif) 18px center no-repeat;
+padding-left:38px;
+margin-bottom:1px;
+border-bottom:1px #ddd dotted;
+}

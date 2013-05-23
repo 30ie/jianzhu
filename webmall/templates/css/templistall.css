@@ -1,0 +1,151 @@
+/* ============产品图片列表============== */
+
+div.templistall{
+float:left;
+margin:0px 5px 0px 0px;
+text-align:left;
+padding-bottom:8px;
+}
+
+div.templistall_left{
+text-align:center;
+}
+
+div.templistall_right{
+text-align:center;
+white-space:normal;
+background-color:#f0f0f0;
+margin-bottom:5px;
+}
+
+div.templistall div.fang{
+border:0px;
+background: #fff;
+padding:8px;
+text-align:center;
+margin-bottom:1px;
+background:url(../images/tpbg.jpg) left no-repeat;
+}
+
+div.templistall div.picFit{
+overflow: hidden;
+}
+
+
+div.templistall div.picFit img{
+
+}
+
+
+div.templistall a.prodtitle:link,div.templistall a.prodtitle:visited,div.templistall a.prodtitle:active{
+color:#333333;
+font:12px/25px SimSun,Arial,Sans-Serif;
+text-decoration: none;
+margin-bottom:5px;
+}
+
+div.templistall a.prodtitle:hover{
+color:#ff6600;
+text-decoration: underline;
+font:12px/25px SimSun,Arial,Sans-Serif;
+margin-bottom:5px;
+}
+
+div.templistall div.memo{
+font:12px/32px SimSun,Arial,Sans-Serif;
+color:#393939;
+margin-top:0px;
+}
+
+div.templistall div.memo img{
+margin-right:3px;
+}
+
+
+div.templistall span.prop{
+font:12px/20px SimSun,Arial,Sans-Serif;
+color:#393939;
+overflow: hidden;
+text-align:left;
+}
+
+div.templistall a.demolink:link,div.templistall a.demolink:visited,div.templistall a.demolink:active{
+color:#ff3300;
+font:12px/28px SimSun,Arial,Sans-Serif;
+text-decoration: underline;
+}
+
+
+
+
+
+/* ============翻页============== */
+
+div#showpages {
+clear:both;
+padding:0px;
+margin:20px 0px;
+width:100%;
+height:30px;
+white-space: nowrap;
+}
+
+div#pagesinfo {
+float:left;
+padding:3px 8px;
+white-space: nowrap;
+}
+
+div#pages {
+float:right;
+padding-right:8px;
+white-space: nowrap;
+}
+
+div#pages ul{
+margin:0;
+padding:0;
+}
+
+div#pages a:link,div#pages a:visited,div#pages a:active{
+color:#505050;
+text-decoration: none;
+}
+
+div#pages a:hover{
+color:#ff0000;
+text-decoration: none;
+}
+
+div#pages li{
+margin:3px;
+padding:2px 5px;
+list-style-type: none;
+float:left;
+background:#fff;
+color:#505050;
+border:1px #cde6ff solid;
+white-space: nowrap;
+}
+
+div#pages li.pagesnow{
+color:#505050;
+background-color:#e4f2ff;
+white-space: nowrap;
+border:1px #cde6ff solid;
+}
+
+div#pages li.pbutton{
+color:#505050;
+background-color:#e4f2ff;
+padding:3px 5px 1px 5px;
+white-space: nowrap;
+border:1px #cde6ff solid;
+}
+
+div#pages li.opt{
+color:#505050;
+padding:0px 2px;
+white-space: nowrap;
+border:0px;
+}

@@ -1,0 +1,45 @@
+/* ============µ„∆¿¡–±Ì============== */
+
+ul.maqlist{
+margin:0px;
+}
+
+li.maqlist {
+margin:0;
+padding:3px 0px;
+padding-left:16px;
+list-style-type: none;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+font-weight:100;
+color:#505050;
+background: transparent url(../images/li.gif) left no-repeat;
+}
+
+a.maqlist:link,a.maqlist:visited,a.maqlist:active{
+color:#505050;
+text-decoration: none;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.maqlist:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+li.maqlist a.pname:link,li.maqlist a.pname:visited,li.maqlist a.pname:active{
+color:#909090;
+text-decoration: none;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+li.maqlist div.time{
+float:right;
+color:#909090;
+}
+
+li.maqlist a.pname:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,37 @@
+<!-start->
+<link href="css/webmall.css" rel="stylesheet" type="text/css" />
+<link href="css/pages.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="5" class="webmallgl">
+  <tr>
+    <td width="50" height="26" align="center" class="biaoti">编号</td>
+    <td width="60" class="biaoti">产品编号</td>
+    <td height="26" class="biaoti">网站产品</td>
+    <td width="35" class="biaoti">安装</td>
+    <td width="65" height="26" class="biaoti">申请时间</td>
+    <td width="65" height="26" class="biaoti">到期时间</td>
+    <td width="35" height="26" class="biaoti">访问</td>
+    <td width="35" height="26" class="biaoti">管理</td>
+  </tr>
+ 
+<!-start->  
+<!-list->
+   <tr>
+     <td width="50" align="center" class="hang">{#userid#}</td>
+    <td width="60"  class="hang">{#spool#}</td>
+     <td  class="hang"><a href="{#siteurl#}" target="_blank">{#spoolname#}</a></td>
+     <td width="35"  class="hang"><img src="images/{#statimg#}" /> </td>
+     <td width="65"  class="hang">{#regtime#}</td>
+    <td width="65"  class="hang">{#exptime#}</td>
+    <td width="35"  class="hang"><a href="{#siteurl#}" target="_blank"><img src="images/look.png" border="0" /></a></td>
+    <td width="35"  class="hang"><a href="{#siteurl#}admin.php" target="_blank"><img src="images/set.png" border="0"  /></a></td>
+   </tr>
+<!-list->
+<!-end-> 
+</table>
+<div id="showpages" >
+	  <div id="pagesinfo">共{#totalnums#}条 每页{#pagesshownum#}条 页次：{#pagesnow#}/{#pagestotal#}</div>
+	  <div id="pages">{#showpages#}</div>
+</div>
+
+<!-end->
+

@@ -1,0 +1,68 @@
+/* ============µ„∆¿¡–±Ì============== */
+
+ul.maqongoing{
+margin:0px;
+padding:0px;
+}
+
+li.maqongoing {
+margin:0;
+list-style-type: none;
+font: 14px/23px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+background: transparent url(../images/q1.gif) left no-repeat;
+padding-left:21px;
+color:#505050;
+height:23px;
+white-space:nowrap;
+}
+
+
+
+a.maqongoing:link,a.maqongoing:visited,a.maqongoing:active{
+font: 14px/23px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+color:#505050;
+text-decoration: none;
+}
+
+a.maqongoing:hover{
+color:#ff0000;
+text-decoration: underline;
+}
+
+li.maqongoing div.coin{
+display:inline;
+height:23px;
+padding-left:20px;
+font: 12px/23px Verdana, Arial, Helvetica, sans-serif;
+background: transparent url(../images/coin.gif) 7px no-repeat;
+}
+
+li.maqongoing div.stat{
+display:inline;
+font: 12px/23px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+background:#ff8c00;
+padding:0px 3px;
+color:#fff
+}
+
+li.maqongoing a.pname:link,li.maqongoing a.pname:visited,li.maqongoing a.pname:active{
+color:#707070;
+text-decoration: none;
+font: 12px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+}
+
+li.maqongoing div.time{
+float:right;
+color:#707070;
+font: 12px/23px  Verdana, Arial, Helvetica, sans-serif;
+width:60px;
+white-space:nowrap;
+overflow:hidden;
+text-align:right;
+}
+
+li.maqongoing a.pname:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/23px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+}

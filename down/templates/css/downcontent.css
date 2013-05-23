@@ -1,0 +1,162 @@
+
+/* ============下载型下载详情============== */
+
+
+div#downcontent{
+margin:0;
+text-align:left;
+}
+
+
+div#downcontent .down{
+padding:0px 0px 5px 0px;
+float:right;
+cursor:pointer;
+}
+
+div#downcontent .downprop{
+padding:0px 2px 10px 2px;
+text-align: left;
+line-height:22px;
+}
+
+div#downcontent .propname{
+padding-right:5px;
+font-weight:bold;
+}
+
+div#downcontent .memo{
+padding:15px;
+margin:10px 0px;
+border:1px #def solid;
+text-align: left;
+background:#f7fbfe;
+}
+
+div#downcontent .con{
+clear:both;
+padding:10px 2px 20px 2px;
+text-align: left;
+}
+
+div#downcontent .bzone{
+clear:both;
+margin:20px 30px 20px 5px;
+text-align: left;
+}
+
+
+div#downcontent .tags{
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/tags.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+}
+
+div#downcontent .source{
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/source.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+}
+
+div#downcontent .addfav{
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/fav.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+cursor:pointer;
+}
+
+span#downcentnotice{
+font: 12px/26px Verdana, Arial, Helvetica, sans-serif;
+color:#ff3300;
+}
+
+a.downlinktext:link{
+cursor:pointer;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+color:#1166aa;
+text-decoration: none;
+}
+
+a.downlinktext:hover{
+text-decoration: underline;
+color:#ff6600;
+}
+
+div#downcontent #zhichi{
+cursor:pointer;
+background:url(../images/zhichi.gif) right no-repeat;
+padding-right:12px;
+}
+
+div#downcontent #fandui{
+cursor:pointer;
+background:url(../images/fandui.gif) right no-repeat;
+padding-right:12px;
+}
+
+div#downcontent .banzhu{
+display:none;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/banzhu.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+}
+
+div#downcontent .banzhu span{
+cursor:pointer;
+}
+
+/* ============翻页============== */
+
+div#contentpages {
+margin:0;
+height:39px;
+}
+
+
+div#contentpages ul{
+margin:0;
+padding:0;
+}
+
+
+div#contentpages li{
+margin:3px;
+list-style-type: none;
+float:left;
+background-color:#fff;
+color:#505050;
+border:1px #cde6ff solid;
+white-space: nowrap;
+padding:2px 5px;
+cursor:pointer;
+}
+
+div#contentpages li.pagesnow{
+color:#505050;
+background-color:#e4f2ff;
+cursor:pointer;
+}
+
+div#contentpages li.pbutton{
+color:#505050;
+background-color:#e4f2ff;
+padding:2px 6px 2px 6px;
+cursor:pointer;
+}
+
+div#contentpages li.cbutton{
+color:#505050;
+background-color:#e4f2ff;
+padding:2px 6px 2px 6px;
+cursor:default;
+}
+
+

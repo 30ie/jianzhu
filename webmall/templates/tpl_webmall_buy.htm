@@ -1,0 +1,142 @@
+<!-start->
+<link href="css/webmallbuy.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="{#CP#}js/tempbuy.js"></script>
+
+<div id="webmallbuy">
+<div  id="notice" class="noticediv"></div>
+<form name="form1" method="post" action="" id="webmallOrder">
+<div class="ordertitle">产品订购</div>
+<div class="tit">订购人信息</div>
+<table width="100%" border="0" cellspacing="1" cellpadding="3" >
+ 
+  <tr valign="top">
+    <td width="80" height="25" align="center" class="itemname">订 购 人</td>
+    <td width="220" >{#company#}</td>
+    <td width="80"  class="itemname">联 系 人</td>
+    <td height="25" >{#name#}</td>
+  </tr>
+  <tr valign="top">
+    <td height="25" align="center" class="itemname">联系电话</td>
+    <td width="220" >{#tel#}</td>
+    <td  class="itemname">手机号码</td>
+    <td height="25" >{#mov#}</td>
+  </tr>
+  <tr valign="top">
+    <td height="25" align="center" class="itemname">电子邮箱</td>
+    <td width="220" >{#email#}</td>
+    <td  class="itemname">通信地址</td>
+    <td height="25" ><span class="itemname">{#addr#}</span></td>
+  </tr>
+  <tr valign="top">
+    <td height="25" align="center" class="itemname">邮政编码</td>
+    <td width="220" ><span class="itemname">{#postcode#}</span></td>
+    <td  class="itemname">会 员 名</td>
+    <td height="25" >{#user#} </td>
+  </tr>
+  
+</table>
+<div class="tit1">产品套餐</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="3" style="margin-bottom:10px">
+  
+  <tr valign="top" bgcolor="#EEEEEE">
+    <td width="15" height="25" align="left" valign="top" bgcolor="#EEEEEE" ></td>
+    <td height="25" bgcolor="#EEEEEE" >套餐包含项目</td>
+    <td width="130" height="25" bgcolor="#EEEEEE" >套餐价 (元)</td>
+  </tr>
+  <tr>
+    <td width="15" height="23" align="left" ><img src="images/queryli.gif" width="7" height="7"></td>
+    <td height="23" >{#webname#} (产品编号：{#spool#}) </td>
+    <td width="130" id="baseprice" style="padding-left:5px;color:#ff6600;font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif">{#myprice#}</td>
+  </tr>
+  <tr>
+    <td height="23" align="left" ><img src="images/queryli.gif" width="7" height="7"></td>
+    <td height="23" >管理系统：智能网站管理系统</td>
+    <td id="baseprice" style="padding-left:5px;color:#ff6600;font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="15" height="23" align="left" ><img src="images/queryli.gif" width="7" height="7"></td>
+    <td height="23" >包含模块：{#modules#}</td>
+    <td width="130" id="baseprice" style="padding-left:5px;color:#ff6600;font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="15" height="23" align="left" ><img src="images/queryli.gif" width="7" height="7"></td>
+    <td height="23" >软件永久商业授权一个</td>
+    <td width="130" id="baseprice" style="padding-left:5px;color:#ff6600;font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" align="left" ><img src="images/queryli.gif" width="7" height="7"></td>
+    <td height="23" >软件支持服务一年</td>
+    <td id="baseprice" style="padding-left:5px;color:#ff6600;font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" align="left" ><img src="images/queryli.gif" width="7" height="7"></td>
+    <td height="23" >商业授权和支持服务所捆绑的网站域名是：
+      <input name="binddomain" type="text" class="input" id="binddomain"  size="20">
+      <span style="color:#ff3300">*</span></td>
+    <td id="baseprice" style="padding-left:5px;color:#ff6600;font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif">&nbsp;</td>
+  </tr>
+  
+</table>
+
+<div class="tit1">自选模块订购</div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="3" >
+  <tr valign="top" bgcolor="#EEEEEE">
+    <td width="15" height="25" align="left" valign="top" bgcolor="#EEEEEE" ></td>
+    <td height="25" >模块名称/代码</td>
+    <td width="82" bgcolor="#EEEEEE" >模块价格</td>
+    <td width="90" height="25" bgcolor="#EEEEEE" >选购金额</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="2" cellspacing="1">
+  <!-start->
+  <!-list->
+  <tr>
+    <td><input name="modules[]" type="checkbox" id="modules_{#gid#}" class="chkmodules"  value="{#gid#}" />
+      {#modulename#} （{#module#}）</td>
+    <td width="80"  class="expprice">{#moduleprice#} 元/{#danwei#}
+      <input name="x1" id="d_m_{#gid#}" type="hidden" value="{#moduleprice#}"></td>
+    <td width="90" id="p_m_{#gid#}" class="expprice">0.00</td>
+  </tr>
+  <!-list->
+  <!-m1->
+</table>
+<div class="tit1">自选增值服务订购</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="3" >
+  <tr valign="top" bgcolor="#EEEEEE">
+    <td width="15" height="25" align="left" valign="top" bgcolor="#EEEEEE" ></td>
+    <td height="25" >服务项目</td>
+    <td width="82" bgcolor="#EEEEEE" >产品价格</td>
+    <td width="90" height="25" bgcolor="#EEEEEE" >选购金额</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="2" cellspacing="1">
+  <!-m1->
+  <!-text->
+  <tr>
+    <td><input name="expservice[]" type="checkbox" id="expservice_{#gid#}" class="chkexpservice" value="{#gid#}" />
+      {#servicename#}</td>
+    <td width="80" class="expprice" >{#serviceprice#} 元/{#danwei#}
+        <input name="x3" id="d_s_{#gid#}" type="hidden" value="{#serviceprice#}">
+    </td>
+    <td width="90" id="p_s_{#gid#}" class="expprice" >0.00</td>
+  </tr>
+  <!-text->
+  <!-end->
+</table>
+
+<div class="tit2">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>订单总价：<span id="totalprice">{#myprice#}</span> 元
+        <input name="spoolid" type="hidden" id="spoolid" value="{#id#}">
+		<input name="spool" type="hidden" id="spool" value="{#spool#}">
+        <input name="act" type="hidden" id="act" value="sendorder">
+</td>
+      <td width="130"><input name="imageField" type="image" src="images/order.gif" width="106" height="36" border="0"></td>
+    </tr>
+  </table>
+  </div>
+</form>
+</div>
+<!-end->

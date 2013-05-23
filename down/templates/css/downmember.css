@@ -1,0 +1,117 @@
+
+
+
+
+/* ============管理============== */
+
+div.downsearch{ 
+border:1px #def solid;
+padding:3px 10px;
+background-color: #f7fbfe;
+margin-bottom:5px;
+}
+
+table.downgl{ 
+border:1px #def solid;
+}
+
+
+td.biaoti{ 
+background-color: #f7fbfe; 
+border-bottom:1px #def solid;
+}
+
+td.hang{
+border-bottom:1px #ebf7fc solid;
+}
+
+
+div.adddowncat{ 
+float:right;
+background:url(../images/add.gif) no-repeat;
+padding-left:18px;
+margin-right:10px;
+cursor:pointer;
+}
+
+
+span.cat_modify{ 
+width:40px;
+height:19px;
+line-height:19px;
+margin-right:5px;
+cursor:pointer;
+background:url(../images/an.gif) left no-repeat;
+float:right;
+text-align:center;
+}
+
+span.cat_del{ 
+width:40px;
+height:19px;
+line-height:19px;
+margin-right:8px;
+cursor:pointer;
+background:url(../images/an.gif) left no-repeat;
+float:right;
+text-align:center;
+}
+
+
+/* ============内容多页管理============== */
+
+div#downpages{
+display:inline;
+}
+
+div#downpages ul{
+margin:0;
+padding:0;
+}
+
+div#downpages li{
+margin:3px;
+padding:2px 5px;
+list-style-type: none;
+float:left;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+color:#505050;
+border:1px #cde6ff solid;
+white-space: nowrap;
+cursor:pointer;
+background:#fff;
+}
+
+div#downpages li.now{
+margin:3px;
+padding:2px 5px;
+list-style-type: none;
+float:left;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+color:#505050;
+border:1px #cde6ff solid;
+white-space: nowrap;
+cursor:pointer;
+background:#e4f2ff;
+}
+
+
+
+div#downpages li.addbutton{
+color:#505050;
+background-color:#e4f2ff;
+padding:2px 6px 2px 6px;
+white-space: nowrap;
+cursor:pointer;
+}
+
+div#downpages input.savebutton{
+color:#505050;
+background-color:#e4f2ff;
+height:20px;
+margin-top:3px;
+padding:1px 2px;
+white-space: nowrap;
+cursor:pointer;
+border:1px #cde6ff solid;
+}

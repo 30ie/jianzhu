@@ -1,0 +1,31 @@
+/* ============分类列表============== */
+
+ul.maqclass{
+margin:0px;
+}
+
+li.maqclass {
+margin:0;
+padding-left:16px;
+height:22px;
+list-style-type: none;
+font: 11px/22px Verdana, Arial, Helvetica, sans-serif;
+font-weight:100;
+color:#909090;
+white-space: nowrap;
+background: transparent url(../images/li.gif) left no-repeat;
+}
+
+a.maqclass:link,a.maqclass:visited,a.maqclass:active{
+color:#505050;
+text-decoration: none;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.maqclass:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+

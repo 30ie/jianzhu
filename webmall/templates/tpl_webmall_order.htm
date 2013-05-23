@@ -1,0 +1,35 @@
+<!-start->
+<link href="css/webmall.css" rel="stylesheet" type="text/css" />
+<link href="css/pages.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="5" class="webmallgl">
+  <tr>
+    <td width="75" height="26" align="center" class="biaoti">订单号</td>
+    <td width="210" class="biaoti">产品名称</td>
+    <td class="biaoti">捆绑域名</td>
+    <td width="75" height="26" class="biaoti">下单时间</td>
+    <td width="35" class="biaoti">付款</td>
+    <td width="35" class="biaoti">处理</td>
+    <td width="35" height="26" class="biaoti">详情</td>
+  </tr>
+ 
+<!-start->  
+<!-list->
+   <tr>
+     <td width="75" align="center" class="hang">{#orderno#}</td>
+    <td width="210"  class="hang">{#tempname#}({#spool#})</td>
+     <td  class="hang">{#binddomain#}</td>
+     <td width="75"  class="hang">{#dtime#}</td>
+    <td width="35"  class="hang"><a href="orderdetail.php?id={#orderid#}" ><img src="images/{#payimg#}" border="0" /></a></td>
+     <td width="35"  class="hang"><a href="orderdetail.php?id={#orderid#}" ><img src="images/{#okimg#}" border="0" /></a></td>
+     <td width="35"  class="hang"><a href="orderdetail.php?id={#orderid#}" ><img src="images/look.png" width="24" height="24" border="0" /></a></td>
+   </tr>
+<!-list->
+<!-end-> 
+</table>
+<div id="showpages" >
+	  <div id="pagesinfo">共{#totalnums#}条 每页{#pagesshownum#}条 页次：{#pagesnow#}/{#pagestotal#}</div>
+	  <div id="pages">{#showpages#}</div>
+</div>
+
+<!-end->
+

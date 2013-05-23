@@ -1,0 +1,90 @@
+div#webmallbuy .ordertitle{
+height:38px;
+font:bold 14px/30px Verdana, Arial, Helvetica, sans-serif;
+border-bottom:3px #cccccc solid;
+}
+
+
+div#webmallbuy td{ 
+font:12px/23px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#webmallbuy td.itemname{ 
+font:12px/20px Verdana, Arial, Helvetica, sans-serif;
+background-color:#eeeeee;
+text-align:center;
+}
+
+
+div#webmallbuy div.tit{ 
+background:url(../images/downarr.gif) 0px no-repeat;
+padding-left:20px;
+border-top:1px #dddddd solid;
+border-bottom:1px #dddddd solid;
+font:14px/35px Verdana, Arial, Helvetica, sans-serif;
+margin-top:1px;
+}
+
+div#webmallbuy div.tit1{ 
+background:url(../images/downarr.gif) 0px no-repeat;
+padding-left:20px;
+border-top:1px #dddddd solid;
+border-bottom:1px #dddddd solid;
+font:14px/35px Verdana, Arial, Helvetica, sans-serif;
+margin-bottom:1px;
+margin-top:5px;
+}
+
+div#webmallbuy div.tit2{ 
+padding-left:5px;
+border-top:3px #dddddd solid;
+border-bottom:1px #dddddd solid;
+margin-bottom:1px;
+margin-top:5px;
+font:bold 14px/50px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#webmallbuy div.tit2 td{ 
+font:bold 14px/60px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+div#webmallbuy .input{
+border:0px;
+border-bottom:1px #ccc solid;
+background-color:#ffffff;
+line-height:18px;
+height:18px;
+color:#ff6600;
+}
+
+div#webmallbuy #serviceList{
+display:none;
+}
+
+
+
+div#webmallbuy span#serviceLook{
+cursor:pointer;
+color:#336699;
+padding-right:15px;
+}
+
+div#webmallbuy span.sopen{
+background:url(../images/a_u.gif) right no-repeat;
+}
+
+div#webmallbuy span.sclose{
+background:url(../images/a_d.gif) right no-repeat;
+}
+
+
+div#webmallbuy span#totalprice{
+font:bold 14px/60px Verdana, Arial, Helvetica, sans-serif;
+color:#ff6600;
+}
+
+div#webmallbuy td.expprice{
+color:#666666;
+}

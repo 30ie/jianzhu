@@ -1,0 +1,32 @@
+/* ============分类列表============== */
+
+ul.newsclass{
+margin:0px;
+padding:0px;
+}
+
+li.newsclass {
+list-style-type: none;
+display:block;
+color: #505050; 
+text-decoration: none;
+font:12px/30px 'SimSun',Arial,Sans-Serif;
+background:#ffffff url(../images/li.gif) 18px center no-repeat;
+padding-left:38px;
+margin-bottom:1px;
+border-bottom:1px #ddd dotted;
+}
+
+
+
+a.newsclass:link,a.newsclass:visited,a.newsclass:active{
+color:#555;
+text-decoration: none;
+font: 12px/20px simsun;
+}
+
+a.newsclass:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/20px simsun;
+}

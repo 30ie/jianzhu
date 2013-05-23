@@ -1,0 +1,78 @@
+<script language="javascript" src="{#CP#}js/webmall.js"></script>
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+
+-->
+</style>
+
+<div  id="notice" class="noticediv"></div>
+<form id="WebMallAdd" method="post" action="" enctype="multipart/form-data" name="form">
+<table width="100%" border="0" cellpadding="2" cellspacing="1">
+  <tr>
+    <td height="30" colspan="2" style="padding:10px 20px 30px 0px;font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;">      网站超市的每一款产品都是制作好的现成网站，您可以通过在线体验，充分了解网站的全部功能，以选购最合适的网站产品来迅速建立您的网站。您只需输入一个管理密码，就可立即创建一个体验网站：</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0">
+    <tr valign="top">
+	<td width="270" align="center">
+	  <div style="width:250px;padding:5px;border:5px #eee solid;text-align:center;margin:0px;">
+        <img src="{#src#}" width="250" border="0" />  </div>
+	  </td>
+      <td>
+	    <table width="100%" border="0" cellspacing="1" cellpadding="0" >
+	      <tr valign="top">
+            <td height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>产品编号：</strong></td>
+            <td height="25" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;">{#spool#}</td>
+          </tr>
+  <tr valign="top">
+    <td width="90" height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>产品名称：</strong></td>
+    <td height="25" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;">{#name#}</td>
+  </tr>
+  <tr valign="top">
+    <td width="90" height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>应用分类：</strong></td>
+    <td height="25" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;">{#temptype#}</td>
+  </tr>
+  <tr valign="top">
+    <td width="90" height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>行业分类：</strong></td>
+    <td height="25" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;">{#tempcat#}</td>
+  </tr>
+  <tr valign="top">
+    <td width="90" height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>包含模块：</strong></td>
+    <td height="25" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;">{#modules#}</td>
+  </tr>
+  <tr>
+    <td height="8" colspan="2" ></td>
+    </tr>
+  <tr>
+    <td height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>选服务器：</strong></td>
+    <td height="25" >
+	<select name="serverdomain" id="serverdomain">
+		{#serverlist#}
+    </select></td>
+  </tr>
+  <tr>
+    <td width="90" height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>管理账号：</strong></td>
+    <td height="25" >admin </td>
+  </tr>
+  <tr>
+    <td width="90" height="25" align="right" style="font:14px/22px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;"><strong>管理密码：</strong></td>
+    <td height="25" ><input name="passwd" type="password" class="input" id="passwd" style='WIDTH: 130px;' value="" maxlength="20" />
+        <font color="#FF0000">*</font> </td>
+  </tr>
+  </table>
+				<div id="proplist"></div>
+				<table width="100%" border="0" cellspacing="1" cellpadding="0">
+                      <tr > 
+                        <td height="60"  style="color:#666666;padding-left:15px;" > 
+                          <input name="imageField" type="image" src="images/createtry.gif" width="170" height="30" border="0">						
+                          <input type="hidden" name="act" value="webmalladd" />
+                        <input name="spool" type="hidden" id="spool" value="{#spool#}" />
+</td>
+                      </tr>
+  </table>
+	  </td>
+      
+    </tr>
+  </table>
+</form>
